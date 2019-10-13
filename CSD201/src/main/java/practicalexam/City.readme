@@ -1,0 +1,23 @@
+Vo Van Hieu - DE130032 - SE1302
+
+===============================
+Lỗi đã biết:
+[City.java]
+>   public myweightedGraph toWeightedGraph()
+        Không hiểu vì sao thêm cạnh mới vào mà chương trình báo đã thêm rồi?
+
+===============================
+Phương thức tự viết thêm vào:
+[myweightedGraph.java] 
+>   protected double[][] resize(double[][] array, int newSize)
+        Hàm resize cho ma trận kề weight
+>   addEdge()...
+        Override các phương thức này để phù hợp cho việc thêm cạnh có trọng số
+>   public String[] getSortedEdges(int v)
+        Hàm này sắp xếp và trả về các cạnh của một đỉnh theo trọng số
+
+===============================
+Hàm bắt buộc chưa làm được:
+>   int [] MST ()
+>   myweightightGraph MST ()
+>   double costMST ()

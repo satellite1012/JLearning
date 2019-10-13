@@ -1,0 +1,23 @@
+// 1    Create text files to store the adjancy matrix of a graph in Figure 1.
+// Write the Graph class with  the following members:
+// Data members:
+// int [][] a  -  two dimentional array representing an adjancy matrix
+// String [] label - label of vertices
+// int n - number of vertices.
+// Methods:
+// void setAMatrix(int [][] b, int m) - set m to n and b matrix to adjancy matrix.
+// void setLabel(String [] c) - set labels for vertices 
+// and two methods for breadth first traverse and depth first traverse.
+// 2.   Write the WGraph class which contains weighted matrix and methods for Dijkstra shortest path algorithm.
+// 3.   Write the WGraph class which contains weighted matrix and methods for  finding  the minimum spanning tree  of  a graph.
+// 4.   Write the Graph class which contains adjacency matrix and methods for  assigning colors to vertices with the sequential coloring algorithm.
+
+// 0	1	1	1	0	0	0	0	0
+// 1	0	1	1	0	0	0	0	0
+// 1	1	0	1	0	0	0	0	0
+// 1	1	1	0	0	1	0	0	0
+// 0	0	0	0	0	1	0	0	0
+// 0	0	0	1	1	0	0	0	0
+// 0	0	0	0	0	0	0	1	1
+// 0	0	0	0	0	0	1	0	0
+// 0	0	0	0	0	0	1	0	0
